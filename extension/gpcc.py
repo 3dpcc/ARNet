@@ -326,7 +326,7 @@ if __name__ == '__main__':
     parser.add_argument("--qp", type=int, default=22)
     parser.add_argument("--gpcc_version", type=int, default=14)
     args = parser.parse_args()
-    input_rootdir = '/media/ivc3090ti/新加卷/zjz/data/ShapeNet/backup1'
+    input_rootdir = ''
     bin_rootdir = './bin_qp22/';
     os.makedirs(bin_rootdir, exist_ok=True)
     rec_rootdir = './rec_qp22/';
