@@ -11,7 +11,7 @@ Abstract —   A learning-based adaptive loop filter is developed for the geomet
 
 ## Requirments
 
-- pytorch **1.10**
+- pytorch **3.7** or **3.8**
 - MinkowskiEngine 0.54
 - h5py
 - open3d
